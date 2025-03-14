@@ -16,7 +16,7 @@ const AboutMain = () => {
         <h1>ABOUT US</h1>
         <p>We are Sharp. We are Smart
          We are Great to work with.</p>
-        <img src='About11.jpg' alt="Our Team" />
+        <img src='about11.jpg' alt="Our Team" />
       </div>
 
       {/* Values Section */}

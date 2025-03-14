@@ -39,7 +39,7 @@ function Home() {
             <div className='Carsols Section'>
                 <Slider {...settings}>
                     <div className='car_img'>
-                        <img src='Mb2.Jpg' alt="Education Slide 1" />
+                        <img src='Mb2.jpg' alt="Education Slide 1" />
                     </div>
                     <div  className='car_img'>
                         <img src='Mb.png' alt="Education Slide 2" />
@@ -75,7 +75,7 @@ function Home() {
                 </div>
 
                 <div className='Our_Contact2'>
-                    <img src='mb1.jpg' alt="Education Slide 1" />
+                    <img src='Mb1.jpg' alt="Education Slide 1" />
                 </div>
             </div>
 

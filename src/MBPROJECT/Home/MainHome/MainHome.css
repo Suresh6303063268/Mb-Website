@@ -1,0 +1,218 @@
+/* All Alignments Strted In this section of code */
+
+/* General styles for the About section */
+.About {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+
+
+    
+/* Heading styles */
+.About_Heading {
+
+    h1{
+    font-size: 2.5rem;
+    color: #971111;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+}
+}
+
+
+/* Paragraph styles */
+.About_Paragraph {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2;
+}
+
+
+
+/* Video Section */
+
+
+/* General styles for the video section */
+.video {
+    padding:20px 20px;
+    text-align: center;
+
+
+    h1{
+        font-size:20px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-top:20px;
+        color: rgb(0, 110, 255);
+    }
+
+    .mb_video{
+        width: 1300px;
+        margin-top:50px;
+    }
+}
+
+/* Styles for the video heading */
+
+
+/* Styles for the link inside the heading */
+.video-heading a {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: -20px;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.video-heading a:hover {
+    color: #ff0000; /* Example hover effect */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+
+
+    .About_Heading {
+        h1{
+
+        
+        font-size:10px;
+        color: #971111;
+        margin-bottom: 20px;
+        font-weight: bold;
+        }
+    }
+
+
+
+
+
+
+
+    .video-heading {
+        font-size: 20px;
+    }
+
+    .video-heading a {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .video{
+        .mb_video{
+            width: 100%;
+        }
+        h1{
+            font-size: 15px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .video-heading {
+        font-size: 20px;
+    }
+
+
+
+    .video-heading a {
+        font-size: 28px;
+    }
+}
+
+
+.About_Heading {
+    h1{
+
+    
+    font-size:10px;
+    color: #971111;
+    margin-bottom: 20px;
+    font-weight: bold;
+    }
+}
+
+
+/* Responsive styles for smaller screens */
+@media (max-width: 1224px) {
+    .video-heading {
+        font-size: 20px;
+    }
+
+    .video-heading a {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .video{
+        .mb_video{
+            width: 100%;
+        }
+        h1{
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+/* Responsive styles for smaller screens */
+@media (max-width:1390px) {
+    .video-heading {
+        font-size: 20px;
+    }
+
+    .video-heading a {
+        font-size: 12px;
+        margin-left: 0;
+    }
+
+    .video{
+        .mb_video{
+            width: 100%;
+        }
+        h1{
+            font-size: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+/* Responsive styles for tablets and smaller screens */
+@media (max-width: 768px) {
+    .About_Heading {
+        h1{
+        font-size:10px;
+        }
+    }
+
+    .About_Paragraph {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+}
+
+/* Responsive styles for mobile screens */
+@media (max-width: 576px) {
+    .About_Heading {
+        h1{
+        font-size:20px;
+        }
+    }
+
+    .About_Paragraph {
+        font-size: 0.9rem;
+    }
+}

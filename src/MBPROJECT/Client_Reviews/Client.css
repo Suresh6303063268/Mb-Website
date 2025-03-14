@@ -1,0 +1,192 @@
+.carousel {
+    background-color: #23a098;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 50px;
+}
+
+
+.client{
+margin-top: 30px;
+justify-content: center;
+margin: 50;
+height:600px;
+h1{
+    color: red;
+    margin-top: 40px;
+}
+
+}
+
+
+.carousel-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.client-name {
+    color: #0414b7;
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.star-rating {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.review-text {
+    color: #f0f0f0;
+    background-color: #3a4a63;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 150px; /* Ensure reviews take equal space */
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 320px;
+    line-height:1.6;
+}
+
+.slick-prev, .slick-next {
+    background-color: #23a098 !important;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.slick-prev:hover, .slick-next:hover {
+    background-color: #1a8375 !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px;
+    color: #3a4a63;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #23a098;
+}
+
+@media (max-width: 768px) {
+
+.client{
+   h1{
+    font-size: 15px;
+   } 
+}
+
+
+    .carousel-item {
+        padding: 20px;
+        margin: 5px;
+    }
+
+    .client-name {
+        font-size: 15px;
+       
+        margin-left: -30px!important;
+    }
+
+    .review-text {
+        font-size: 14px;
+        height: auto;
+        width: 255px;
+    }
+
+    .star-rating {
+        font-size: 16px;
+        margin-left: -30px!important;
+    }
+}
+
+
+/* All Tablets View Strteing In this code */
+
+
+@media (min-width: 769px) and (max-width: 1224px) {
+
+    .carousel {
+        background-color: #23a098;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+        margin-top: 50px;
+    }
+    
+    
+    .client{
+    margin-top: 30px;
+    justify-content: center;
+    margin: 50;
+    height:600px;
+    h1{
+        color: red;
+        margin-top: 40px;
+    }
+    
+    }
+    
+    
+    .carousel-item {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .client-name {
+        color: #0414b7;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    
+    .star-rating {
+        color: red;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+    
+    .review-text {
+        color: #f0f0f0;
+        background-color: #3a4a63;
+        padding:20px;
+        border-radius: 5px;
+        font-size: 18px;
+        height: 150px; /* Ensure reviews take equal space */
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        width:320px;
+        line-height:1.6;
+    }
+    
+    .slick-prev, .slick-next {
+        background-color: #23a098 !important;
+        border-radius: 50%;
+        padding: 10px;
+    }
+    
+    .slick-prev:hover, .slick-next:hover {
+        background-color: #1a8375 !important;
+    }
+    
+    .slick-dots li button:before {
+        font-size: 10px;
+        color: #3a4a63;
+    }
+    
+    .slick-dots li.slick-active button:before {
+        color: #23a098;
+    }
+}

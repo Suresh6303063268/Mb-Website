@@ -1,0 +1,426 @@
+/* about_main.css */
+
+/* General styling */
+.Main-About {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    .about-1{
+         img {
+            width: 100%;
+            height: auto;
+          }
+          h1{
+            text-align: center;
+            color: crimson;
+          }
+          h2{
+           
+            width: 1500px;
+          }
+    }
+
+  
+
+      
+  .values h2{
+text-align:center;
+color: crimson;
+  }
+  .service h3, .heading h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+  
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+   
+    background-color: rgb(14, 123, 145);
+    box-shadow: 0px 0px 20px red;
+    margin-top: 50px;
+
+
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        background-color: rgb(248, 247, 247);
+
+
+  
+        .ser1, .ser2, .ser3 {
+            margin-bottom:-10px;
+
+            h3{
+                color: rgb(172, 199, 18);
+            }
+
+
+            p {
+              margin-left:100px;
+                text-align: justify;
+                color: rgb(27, 22, 22);
+                width: 400px;
+                line-height: 2;
+               
+              }
+          }
+          
+        
+
+
+
+      }
+
+
+       .icons {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+      }
+    
+      .icon svg, .icon2 svg, .icon3 svg {
+        font-size:25px;
+      }
+    
+      .contact-info {
+        font-size: 14px;
+      }
+      
+
+
+
+  }
+
+  .heading{
+    margin-top: 40px;
+    h2{
+        color: crimson;
+    }
+  }
+
+
+  }
+  
+  
+  /* Service section */
+  
+  
+  
+  
+  
+  
+  /* Button */
+  .head button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+
+  
+  /* Responsive styles */
+  @media (min-width:320px) and (max-width: 768px) {
+
+    .Main-About {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    .about-1{
+         img {
+            width: 100%;
+            height: auto;
+          }
+          h1{
+            text-align: center;
+            color: crimson;
+          }
+          h2{
+           
+            width: 1500px;
+          }
+    }
+
+  
+
+      
+  .values h2{
+text-align:center;
+color: crimson;
+  }
+  .values p{
+    text-align: justify;
+    line-height:2;
+  }
+  .service h3, .heading h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(241, 243, 244);
+    box-shadow: 0px 0px 20px red;
+
+
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        background-color: rgb(248, 247, 247);
+
+
+  
+        .ser1, .ser2, .ser3 {
+            margin-bottom: 20px;
+
+            h3{
+                color: rgb(172, 199, 18);
+            }
+
+
+            p {
+              margin-left:10px;
+                text-align: justify;
+                color: rgb(27, 22, 22);
+                width: 300px;
+                line-height: 2;
+               
+              }
+          }
+          
+        
+
+
+
+      }
+
+
+
+  }
+
+  .heading{
+    margin-top: 40px;
+    h2{
+        color: crimson;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+  }
+  .head button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+
+  }
+  
+}
+  /* Service section */
+  
+  
+  
+  
+  
+  
+  /* Button */
+  
+  
+  
+  @media (max-width: 576px) {
+    .about-1 h1, .about-1 h2, .values h2, .service h3, .heading h2 {
+      font-size: 15px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  
+    .head button {
+      font-size: 16px;
+    }
+  
+    .service, .icons {
+      flex-direction: column;
+    }
+  
+    .icon svg, .icon2 svg, .icon3 svg {
+      font-size: 35px;
+    }
+  
+    .contact-info {
+      font-size: 14px;
+    }
+  }
+  
+
+  /* All Tablets And Responsive code in css code */
+
+  
+  /* Responsive styles */
+  @media (min-width:769px) and (max-width:1224px) {
+
+    .Main-About {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+    .about-1{
+         img {
+            width: 100%;
+            height: auto;
+          }
+          h1{
+            text-align: center;
+            color: crimson;
+          }
+          h2{
+           
+            width: 1500px;
+          }
+          p{
+            font-size:25px;
+            font-weight: bold;
+          }
+    }
+
+  
+
+      
+  .values h2{
+text-align:center;
+color: crimson;
+font-size: 30px;
+  }
+  .values h3{
+    text-align:center;
+    color: rgb(27, 18, 20);
+    font-size:26px;
+      }
+  .values p{
+    text-align: justify;
+    line-height: 1.55;
+    font-size:23px;
+  }
+  .service h3, .heading h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  .service {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(14, 123, 145);
+    box-shadow: 0px 0px 20px red;
+
+
+    .service1, .service2 {
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        background-color: rgb(248, 247, 247);
+
+
+  
+        .ser1, .ser2, .ser3 {
+            margin-bottom: 20px;
+
+            h3{
+                color: rgb(172, 199, 18);
+                font-size: 29px;
+            }
+
+
+            p {
+              margin-left:10px;
+                text-align: justify;
+                color: rgb(27, 22, 22);
+                width: 320px;
+                font-weight: 500;
+                font-size:22px;
+                line-height: 2;
+               
+              }
+          }
+          
+        
+
+
+
+      }
+
+
+
+  }
+
+  .heading{
+    margin-top:60px;
+    h2{
+        color: crimson;
+        font-size: 28px;
+        line-height: 1.6;
+    }
+  }
+  .head button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+  }
+
+  .icons{
+    flex-direction: row; /* Display icons horizontally */
+    justify-content: space-around; /* Space them out evenly */
+
+    .icon, .icon2, .icon3 {
+      margin: 10px;
+    }
+    
+    .contact-info {
+      font-size: 22px;
+      line-height: 1.6;
+      font-weight: 700;
+    }
+    .draft-icon, .location-icon, .call-icon {
+      font-size: 30px; /* Adjust icon size for tablet view */
+    }
+
+  }
+  
+
+  }
+  
+}
+  /* Service section */
+  
+  
+  
+  
+  
+  
+  /* Button */
+  
+  
+  
